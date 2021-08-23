@@ -19,4 +19,4 @@ def CoeffiecientOfDetermination(ys, ys_line):
     ys_mean_error = SquareError(ys, ys_mean)
     ys_line_error = SquareError(ys, ys_line)
     
-    return 1 - ys_line_error/ys_mean_error
+    return (1 - ys_line_error/ys_mean_error)
